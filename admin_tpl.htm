@@ -1,0 +1,79 @@
+﻿<style type="text/css">
+
+.stats{}
+.stats DT{ font-weight: bold; }
+.stats DD{ font-style:italic; border-bottom: 1px dashed #E1E1E1;}
+
+</style>
+{UPDATED}
+<div class="wrap" id="bbuinfo_config">
+  <h2>Configura&ccedil;&atilde;o do Zura! HotLinks</h2>
+  <form name="mpp_config_form" method="post">
+  {ERROS}  
+  <p>Ao  usar o Zura! HotLinks voc&ecirc; poder&aacute; ser um dos nossos afiliados. Caso ainda n&atilde;o seja, cadastre-se no site <a href="http://parceiros.zura.com.br/" alt="Parceiros Zura">http://parceiros.zura.com.br/</a>
+    </p>
+    <h2>Configura&ccedil;&otilde;es:<br></h2>
+  <table width="75%" border="0" cellpadding="5" cellspacing="0">
+    <tr>
+      <td width="25%"><strong>PR:</strong> <em>(seu ID Zura!)</em></td>
+      <td><input dir="ltr" id="pr" name="pr" type="text" value="{PR}" size="7" /></td>
+    </tr>
+    <tr>
+      <td><strong><br>Site:</strong> <em>(opcional)</em></td>
+      <td><br><input dir="ltr" id="site" name="site" type="text" value="{SITE}" size="7" />
+        </td>
+    </tr>
+    <tr>
+        <td><br>Codifica&ccedil;&atilde;o:</td>
+        <td ><br>
+            <select name="charset">
+                <option value="ISO-8859-1" {ISO-8859-1}>ISO-8859-1</option>
+                <option value="ISO-8859-15" {BIG5}>ISO-8859-15</option>
+                <option value="UTF-8" {UTF-8}>UTF-8</option>
+                <option value="cp866" {cp866}>cp866</option>
+                <option value="cp1251" {cp1251}>cp1251</option>
+                <option value="cp1252" {cp1252}>cp1252</option>
+                <option value="KOI8-R" {KOI8-R}>KOI8-R</option>
+                <option value="BIG5" {BIG5}>BIG5</option>
+                <option value="GB2312" {GB2312}>GB2312</option>
+                <option value="BIG5-HKSCS" {BIG5-HKSCS}>BIG5-HKSCS</option>
+                <option value="Shift_JIS" {Shift_JIS}>Shift_JIS</option>
+                <option value="EUC-JP" {EUC-JP}>EUC-JP</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <br>Links em nova janela?
+        </td>
+        <td >
+            <br><input type="checkbox" name="blank" {BLANK} />
+        </td>
+    </tr>
+    <tr>
+        <td><br>Links por post:</td>
+        <td><br>
+            <select name="links">
+                <option value="1" {link-1}>1</option>
+                <option value="2" {link-2}>2</option>
+                <option value="3" {link-3}>3</option>
+                <option value="4" {link-4}>4</option>
+                <option value="5" {link-5}>5</option>
+                <option value="6" {link-6}>6</option>
+                <option value="7" {link-7}>7</option>
+                <option value="8" {link-8}>8</option>
+                <option value="9" {link-9}>9</option>
+                <option value="10" {link-10}>10</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><!-- Salvar dados do formulário --></td>
+        <td><br><input value="Salvar" name="bbuinfo_config_submit" type="submit" /></td>
+    </tr>
+  </table>
+  <h2>Instru&ccedil;&otilde;es de uso:</h2>
+    <p>Preencha as op&ccedil;&otilde;es acima e clique em salvar. Os links j&aacute; estar&atilde;o ativos em seu blog.</p>
+  </form>
+</div>
+
